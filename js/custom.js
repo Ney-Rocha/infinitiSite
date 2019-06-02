@@ -29,7 +29,7 @@
 
     $.mbBgndGallery.buildGallery({
       containment: "#intro",
-      timer: 3000,
+      timer: 4000,
       effTimer: 1000,
       controls: "#controls",
       grayScale: false,
@@ -58,8 +58,9 @@
 
       images: [
         "img/bgslides/4.jpg",
-        "img/bgslides/2.jpg",
-        "img/bgslides/3.jpg"
+        "img/bgslides/6.jpg",        
+        "img/bgslides/5.jpg",
+        "img/bgslides/8.jpg"
       ],
 
       onStart: function() {},

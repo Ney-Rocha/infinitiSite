@@ -455,6 +455,11 @@ Works
 	position: relative;
 }
 
+.og-grid li > a img:hover {
+	transform: scale(1.02);	
+	transition: .5s;
+}
+
 .og-grid li.og-expanded > a::after {
 	top: auto;
 	border: solid transparent;
