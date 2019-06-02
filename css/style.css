@@ -20,7 +20,7 @@ General
 body{
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 1.6em;
 }
 
@@ -164,13 +164,13 @@ nav.navbar.fixed-to-top{
 }
 
 .navbar-default .navbar-nav>li>a {
-	color: #fff;
+	color: #004f9b;
 	font-weight: 700;
 	text-transform: uppercase;
 }
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
-	color: #3A3A3A;
+	color: #9f0d72;
 	cursor: pointer;
 	-webkit-transition: all 300ms ease-in-out;
 	-moz-transition: all 300ms ease-in-out;
@@ -679,9 +679,11 @@ ul.social-network li {
 	margin: 5px 5px;
 }
 
-
+ul.social-network li a span .fa-circle {
+	color: #003399;
+}
 ul.social-network li a:hover span .fa-circle {
-	color: #2b2b2b;
+	color: #99FF00;
 }
 
 ul.social-network li a i{
@@ -691,7 +693,11 @@ ul.social-network li a i{
 Footer
 ================================= */
 footer {
-	background: #00c1c1;
+	background: #1A52DC; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  #1A52DC 0%, #003399 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover,  #1A52DC 0%,#003399 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center,  #1A52DC 0%,#003399 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#003399',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 	color: #fff;
 	padding: 50px 0 30px;
 }
