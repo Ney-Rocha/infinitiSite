@@ -623,7 +623,11 @@ Works
 /* ================================
 Contact
 ================================= */
-
+.phone,
+.phone:hover{
+	text-decoration:none;
+	color: #333;
+}
 .validation {
   color: red;
   display:none;
